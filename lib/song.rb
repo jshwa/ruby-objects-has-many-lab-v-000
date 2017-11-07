@@ -6,6 +6,6 @@ class Song
   end
 
   def artist_name
-    self.author == nil ? nil : self.artist.name
+    self.artist == nil ? nil : self.artist.name
   end
 end
